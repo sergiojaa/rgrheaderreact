@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+.orive img{
+    height: 44px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.rgr-logo img{
+    width: 150px;
+    cursor: pointer;
+    margin-left: 10rem;
+}
+.input-div input{
+    width: 40rem;
+    height: 44px;
+    font-size: 30px;
+    color: orangered;
+   border: 1px solid orangered;
+    border-radius: 20px;
+    margin-left: 3rem;
+}
+.input-div input::placeholder{
+    color: orangered;
+}
+
+.lukasnomeri{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
